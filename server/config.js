@@ -15,59 +15,59 @@ const prizes = [
   },
   {
     type: 1,
-    count: 2,
-    text: "特等奖",
-    title: "神秘大礼",
-    img: "../img/secrit.jpg"
+    count: 1,
+    text: "一等奖",
+    title: "Steam Deck（512G)",
+    img: "../img/steamdeck.png"
   },
   {
     type: 2,
-    count: 5,
+    count: 1,
     text: "一等奖",
-    title: "Mac Pro",
-    img: "../img/mbp.jpg"
+    title: "DJI mini3 Pro 标配版",
+    img: "../img/djmini3.png"
   },
   {
     type: 3,
-    count: 6,
-    text: "二等奖",
-    title: "华为 Mate30",
-    img: "../img/huawei.png"
+    count: 1,
+    text: "一等奖",
+    title: "PlayStation5 国行版",
+    img: "../img/ps5.png"
   },
   {
     type: 4,
-    count: 7,
-    text: "三等奖",
-    title: "Ipad Mini5",
-    img: "../img/ipad.jpg"
+    count: 1,
+    text: "二等奖",
+    title: "Dyson 吹风机",
+    img: "../img/Dyson.png"
   },
   {
     type: 5,
-    count: 10,
-    text: "四等奖",
-    title: "大疆无人机",
-    img: "../img/spark.jpg"
+    count: 1,
+    text: "二等奖",
+    title: "极米坚果K6 家用投影仪",
+    img: "../img/jimik6.png"
   },
   {
     type: 6,
-    count: 12,
-    text: "五等奖",
-    title: "Kindle",
-    img: "../img/kindle.jpg"
+    count: 1,
+    text: "二等奖",
+    title: "SONY 无线智能降噪 头戴耳机",
+    img: "../img/earphone.png"
   },
   {
     type: 7,
-    count: 16,
-    text: "六等奖",
-    title: "漫步者蓝牙耳机",
-    img: "../img/edifier.jpg"
+    count: 4,
+    text: "三等奖",
+    title: "京东礼品卡（800元）",
+    img: "../img/card.png"
   }
 ];
 
 /**
  * 一次抽取的奖品个数与prizes对应
  */
-const EACH_COUNT = [5, 1, 5, 6, 7, 5, 6, 8];
+const EACH_COUNT = [1, 1, 1, 1, 1, 1, 1, 4];
 
 /**
  * 卡片公司名称标识
